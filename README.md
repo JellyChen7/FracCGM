@@ -1,4 +1,30 @@
 # FracCGM
+Spatiotemporal Fluid Flow Prediction in Subsurface Fractured Media using Diffusion Models 
+(conditional denoising diffusion implicit models with 2D UNet as basic framework)
+
+[Guodong Chen*](https://scholar.google.com/citations?user=U2YFkAgAAAAJ&hl=zh-TW&oi=ao), 
+[Nori Nakata](https://profiles.lbl.gov/88689-nori-nakata), 
+Zhongzheng Wang, 
+[Zhengfa Bi](https://profiles.lbl.gov/416831-zhengfa-bi), 
+[Rie Nakata](https://profiles.lbl.gov/145475-rie-nakata)
+
+---
+
+Here, we present **FracCGM**, a deep-learning framework that leverages denoising diffusion conditional probabilistic models to generatively forecast the evolution of pressure and temperature fields in fractured geothermal reservoirs.
+
+Trained on a diverse library of stochastically generated fracture networks and their corresponding physics-based flow simulations, our model demonstrates:
+
+- High-fidelity probabilistic forecasting
+- Generation of probabilistic ensembles
+- Quantification of epistemic uncertainty
+- Real-time probabilistic prediction capability
+
+FracCGM provides a powerful and efficient paradigm for modeling complex subsurface flows and supports risk-aware geothermal reservoir management.
+
+---
+
+
+# FracCGM
 Spatiotemporal Fluid Flow Prediction in Subsurface Fractured Media using Diffusion Models  
 (Conditional Denoising Diffusion Implicit Models with 2D UNet as Basic Framework)
 
@@ -90,12 +116,7 @@ python main.py
 
 
 
-# FracCGM
-Spatiotemporal Fluid Flow Prediction in Subsurface Fractured Media using Diffusion Models (conditional denoising diffusion implicit models with 2D UNet as basic framework)
 
-[Guodong Chen*](https://scholar.google.com/citations?user=U2YFkAgAAAAJ&hl=zh-TW&oi=ao), [Nori Nakata](https://profiles.lbl.gov/88689-nori-nakata), Zhongzheng Wang, [Zhengfa Bi](https://profiles.lbl.gov/416831-zhengfa-bi), & [Rie Nakata](https://profiles.lbl.gov/145475-rie-nakata)
-
-Here, we present FracCGM, a deep-learning framework that leverages denoising diffusion conditional probabilistic models to generatively forecast the evolution of pressure and temperature fields in fractured geothermal reservoirs. Trained on a diverse library of stochastically generated fracture networks and their corresponding physics-based flow simulations, our model demonstrates the dual capacity for high-fidelity probabilistic forecasting and the generation of probabilistic ensembles. These ensembles effectively encapsulate the epistemic uncertainty arising from stochastic fracture geometries, providing a robust pathway for real-time probabilistic prediction and informed reservoir management. Our results establish FracCGM as a powerful and efficient paradigm for modeling complex subsurface flows, offering significant potential for risk assessment and reservoir management strategies in fractured systems.
 
 ## Network architecture:
 ![Architecture of GenFrac](https://github.com/JellyChen7/FracCGM/raw/master/Assets/Fig1.jpg "Architecture of FracCGM")
